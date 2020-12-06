@@ -12,10 +12,12 @@ from app import app
 
 #Read csv file
 
-df_link = pd.read_csv("df_linked.csv")
+"""df_link = pd.read_csv("df_linked.csv")
 df_brut = pd.read_csv("philo_brut.csv", index_col=0)
-df_simi = pd.read_csv("simi_matrix.csv", index_col=0)
+df_simi = pd.read_csv("simi_matrix.csv", index_col=0)"""
 #df_PCA = pd.read_csv("PCA.csv", index_col=0)
+
+
 
 t_1 = []
 t_2 = []
