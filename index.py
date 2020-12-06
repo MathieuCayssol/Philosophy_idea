@@ -50,10 +50,12 @@ index_page = html.Div(
 @app.callback(Output('page-content', 'children'),
               [Input('url', 'pathname')])
 def display_page(pathname):
-    if pathname == '/apps/firststep':
+    if (pathname == '/apps/firststep'):
         return firststep.layout
-    else:
+    elif(pathname == 'apps'):
         return index_page
+    else:
+        return "Error"
 
 
 
