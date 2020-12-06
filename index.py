@@ -52,9 +52,10 @@ index_page = html.Div(
 def display_page(pathname):
     if (pathname == '/apps/firststep'):
         return firststep.layout
-    elif(pathname == 'apps'):
+    if (pathname == ''):
         return index_page
     else:
+        #return index_page
         return "Error"
 
 
