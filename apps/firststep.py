@@ -138,7 +138,7 @@ def update_subject(input):
 )
 def create_fig(input):
     if(input):
-
+        fig = go.Figure()
         #Core algorithm for 
 
         ind_text = var_test[input-1]
