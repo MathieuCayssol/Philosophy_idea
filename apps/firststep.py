@@ -12,9 +12,12 @@ from app import app
 
 #Read csv file
 
-"""df_link = pd.read_csv("df_linked.csv")
-df_brut = pd.read_csv("philo_brut.csv", index_col=0)
-df_simi = pd.read_csv("simi_matrix.csv", index_col=0)"""
+PATH = pathlib.Path(__file__).parent
+DATA_PATH = PATH.joinpath("../").resolve()
+
+df_link = pd.read_csv(DATA_PATH.joinpath("df_linked.csv"))
+df_brut = pd.read_csv(DATA_PATH.joinpath("philo_brut.csv"), index_col=0)
+df_simi = pd.read_csv(DATA_PATH.joinpath("simi_matrix.csv"), index_col=0)
 #df_PCA = pd.read_csv("PCA.csv", index_col=0)
 
 

@@ -13,11 +13,9 @@ from apps import firststep
 
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
-    html.Div(id='page-content')
-])
+    html.Div(id='page-content'),
 
-
-index_page = html.Div(
+    html.Div(
     id="index_page_div",
     children=[
     dbc.Row(style={
@@ -44,19 +42,17 @@ index_page = html.Div(
         ]                               
     )
 ])
+])
 
 
 
 @app.callback(Output('page-content', 'children'),
               [Input('url', 'pathname')])
 def display_page(pathname):
-    #if (pathname == '/apps/firststep'):
-        #return firststep.layout
-    if (pathname == ''):
-        return 'Error'
+    if (pathname == '/apps/firststep'):
+        return firststep.layout
     else:
-        #return index_page
-        return "Error"
+        return app.layout
 
 
 
