@@ -53,7 +53,7 @@ def display_page(pathname):
     if (pathname == '/apps/firststep'):
         return firststep.layout
     if (pathname == ''):
-        return index_page
+        return 'Error'
     else:
         #return index_page
         return "Error"
