@@ -1,0 +1,64 @@
+#index_page_div {
+    text-align: center;
+    overflow-x: hidden;
+}
+
+#title_proj,
+#pres_p,
+#img_brain {
+    color: white;
+}
+
+#title_proj {
+    padding-top: 50px;
+    font-size: 5em;
+}
+
+#title_proj::after {
+    content: "AI";
+    color: #EE220C;
+    background: black;
+}
+
+#pres_p {
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#img_pipeline {
+    margin-top: 60px;
+    display: inline-block;
+}
+
+#link_app {
+    margin-top: 60px;
+    display: inline-block;
+    background: white;
+    color: #EE220C;
+    padding: 20px;
+    width: 200px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+#select {
+    width: 400px;
+}
+
+#choose_philo {
+    padding-top: 70px;
+    color: #B5B5B5;
+    display: block;
+}
+
+#select,
+#search_button {
+    height: 50px;
+    display: inline-block;
+}
+
+#search_button {
+    width: 60px;
+}

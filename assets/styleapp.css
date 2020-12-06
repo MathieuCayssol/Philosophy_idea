@@ -1,0 +1,81 @@
+#first_col {
+    padding: 40px;
+    background: black;
+}
+
+#button_philosopher {
+    background: red;
+    float: right;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 1em;
+}
+
+#my-output h2 {
+    margin-top: 40px;
+    color: #DADADA;
+}
+
+#my-output p {
+    color: #DADADA;
+    font-size: 0.8em;
+    text-align: justify;
+    padding: 8px;
+    padding-left: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: #2e2e2e 1px solid;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #737373;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+#subject_select {
+    margin-top: 48px;
+    margin-left: 10px;
+}
+
+#subject_select label {
+    position: relative;
+    top: -10px;
+    margin-right: 20px;
+}
+
+#dropdown_select_subject {
+    display: inline-block;
+    width: 100px;
+}
+
+#h3_top_three {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    padding: 10px;
+    margin: 25px;
+    border-left: 4px black solid;
+}
+
+#wiki-link-text a {
+    display: inline-block;
+}
+
+#wiki-link-text {
+    margin: 30px;
+}
+
+#graph-link-text P {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #1F4788;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    z-index: 9999;
+}
