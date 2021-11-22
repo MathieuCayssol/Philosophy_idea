@@ -34,7 +34,7 @@ index_page = html.Div(
                 dbc.Col(html.Div(), md=2, xs=0),
                 dbc.Col(html.Div(children=[
                     html.H1("Philosoph", id='title_proj'),
-                    html.P(["PhilosophAI is a tool for visualizing the evolution of philosophical ideas through the ages.",html.Br() ,"It uses state of the art NLP model (AI) and data from Wikipedia."], id='pres_p'),
+                    html.P(["PhilosophAI is a tool for visualizing philosophical ideas throughout history.",html.Br() ,"It uses state of the art NLP model (AI) and data from Wikipedia."], id='pres_p'),
                     html.Img(src="assets/pipeline.png", style={'width':'80%'}, id='img_pipeline'),
                     html.Div(children=[
                         dbc.NavLink("Try it now !", href="/apps/firststep", id="link_app")
